@@ -101,13 +101,14 @@ echo $divider
                 break;;
             [Zz]* ) 
                 echo 'Unavaliable for now, try installing manually'
-                echo EOF 
+                #echo EOF 
                 # Load the kubectl completion code for zsh[1] into the current shell
-                source <(kubectl completion zsh)
+                #source <(kubectl completion zsh)
                 # Set the kubectl completion code for zsh[1] to autoload on startup
-                kubectl completion zsh > "${fpath[1]}/_kubectl"
-                echo 'Installed successfully, restart terminal to enable autocomplete'
-                EOF
+                #kubectl completion zsh > "${fpath[1]}/_kubectl"
+                #echo 'Installed successfully, restart terminal to enable autocomplete'
+                #EOF
+                
                 break;;
             * ) 
                 echo "use (b) to bash or (z) to zsh.";;
