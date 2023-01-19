@@ -1,4 +1,4 @@
-# Install-docker-kubectl-e-kind
+# Install-docker-kubectl-and-kind
 Script for quick installation of Docker, Kubectl and kind for linux
 
 
